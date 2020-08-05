@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Big 5</h1>
+    </header>
+    
+    <div id="questions" class="container">
+        <div id="bar">
+            <div id="progress"></div>
+            <span></span>
+        </div>
+
+        <h2></h2>
+
+        <p id="question"></p>
+
+        <div id="buttons">
+            <button class="answer" val="0">--</button>
+            <button class="answer" val="1">-</button>
+            <button class="answer" val="2">0</button>
+            <button class="answer" val="3">+</button>
+            <button class="answer" val="4">++</button>
+        </div>
+
+        <button id="back">Back</button>
+    </div>
+
+    <div id="result" class="container">
+        <h2></h2>
+
+        <p id="dim1"></p>
+        <p id="dim2"></p>
+        <p id="dim3"></p>
+        <p id="dim4"></p>
+        <p id="dim5"></p>
+
+        <button id="reset">Reset</button>
+    </div>
+
+</body>
+</html>
